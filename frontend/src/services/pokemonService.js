@@ -11,4 +11,14 @@ const fetchRandomPokemon = async () => {
   }
 }
 
-export { fetchRandomPokemon }
+const fetchPokemonById = async (id) => {
+  try {
+    const response = await axios.get(`http://localhost:3003/api/pokemon/${id}`)
+    return response.data.data
+  } catch (error) {
+    console.error("Error fetching Pokemon by id:", error)
+    throw error
+  }
+}
+
+export { fetchRandomPokemon, fetchPokemonById }

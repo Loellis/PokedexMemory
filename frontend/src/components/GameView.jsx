@@ -1,11 +1,12 @@
-import React, { useState } from "react"
-import { fetchRandomPokemon } from "../services/pokemonService"
+import React, { useState, useEffect } from "react"
 
-const GameView = ({ pokemonData , onContinue }) => {
+const GameView = ({ pokemonData , onContinue, onPlayAgain, morePokemon }) => {
   const [guessName, setGuessName] = useState("")
   const [feedbackName, setFeedbackName] = useState("")
   const [guessId, setGuessId] = useState("")
   const [feedbackId, setFeedbackId] = useState("")
+
+  const [notDone, setNotDone] = useState(true)
 
   const calculateLevenshteinDistance = (s1, s2) => {
     const len1 = s1.length;
@@ -42,13 +43,25 @@ const GameView = ({ pokemonData , onContinue }) => {
     return calculateLevenshteinDistance(guess.toLowerCase(), correctAnswer.toLowerCase())
   }
 
-  const handleNewGame = async () => {
+  const handleNextPokemon = async () => {
     onContinue()
     setGuessName("")
     setFeedbackName("")
     setGuessId("")
     setFeedbackId("")
   }
+
+  const handlePlayAgain = () => {
+    onPlayAgain()
+    setGuessName("")
+    setFeedbackName("")
+    setGuessId("")
+    setFeedbackId("")
+  }
+
+  useEffect(() => {
+    setNotDone(morePokemon !== 0)
+  }, [morePokemon])
 
   const handleGuessName = () => {
     if (guessName.toLowerCase() === pokemonData.name) {
@@ -82,7 +95,7 @@ const GameView = ({ pokemonData , onContinue }) => {
           <br />
           <input
             type="text"
-            placeholder="Enter your guess"
+            placeholder="Enter Pokémon Name"
             value={guessName}
             onChange={(e) => setGuessName(e.target.value)}
           />
@@ -90,13 +103,17 @@ const GameView = ({ pokemonData , onContinue }) => {
           <p>{feedbackName}</p>
           <input
             type="number"
-            placeholder="Enter your guess"
+            placeholder="Enter Pokedex Entry"
             value={guessId}
             onChange={(e) => setGuessId(e.target.value)}
           />
           <button onClick={handleGuessId}>Submit Pokédex entry</button>
           <p>{feedbackId}</p>
-          <button onClick={handleNewGame}>New Pokémon</button>
+          { notDone ? (
+            <button onClick={handleNextPokemon}>Next Pokémon</button>
+          ) : (
+            <button onClick={handlePlayAgain}>Go to Start</button>
+          )}
         </div>
       )}
     </div>
