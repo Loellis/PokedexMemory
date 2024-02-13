@@ -4,7 +4,7 @@ import GameView from "./components/GameView"
 import { fetchPokemonById } from "./services/pokemonService"
 
 const generateScrambledArrayOfPokemonIds = () => {
-  const pokedexEntries = Array.from({length: 5}, (_, index) => index +1)
+  const pokedexEntries = Array.from({length: 151}, (_, index) => index +1)
   for (let i = pokedexEntries.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
     const temp = pokedexEntries[i]
@@ -37,13 +37,6 @@ const App = () => {
 
   const handleContinue = async () => {
     try {
-      console.log(pokemonIndexes.length)
-      // // Check if there are no more indexes left
-      // if (pokemonIndexes.length === 0) {
-      //   console.log("No more Pokémon to guess!");
-      //   return;
-      // }
-
       const pokeData = await fetchPokemonById(pokemonIndexes[0])
       setPokemonData(pokeData)
       setPokemonIndexes(pokemonIndexes.slice(1))
