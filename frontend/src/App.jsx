@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import WelcomePage from './components/WelcomePage'
-import GameView from './components/GameView'
+import React, { useState } from "react"
+import WelcomePage from "./components/WelcomePage"
+import GameView from "./components/GameView"
 import { fetchRandomPokemon } from "./services/pokemonService"
 
 const App = () => {
