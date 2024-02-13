@@ -6,3 +6,12 @@ GET http://localhost:3003/api/fetch-pokemon-details
 
 ### Format the data
 GET http://localhost:3003/api/format-data
+
+### Get Meowth by ID
+GET http://localhost:3003/api/pokemon/52
+
+### Get Meowth by name
+GET http://localhost:3003/api/pokemon/meowth
+
+### Try to get pokemon with ID 250 (should fail)
+GET http://localhost:3003/api/pokemon/250

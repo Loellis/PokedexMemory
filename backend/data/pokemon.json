@@ -28,7 +28,7 @@
   },
   {
     "name": "charmander",
-    "pokedexEntry": 5,
+    "pokedexEntry": 4,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
     "types": [
       "fire"
@@ -36,7 +36,7 @@
   },
   {
     "name": "charmeleon",
-    "pokedexEntry": 6,
+    "pokedexEntry": 5,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
     "types": [
       "fire"
@@ -44,7 +44,7 @@
   },
   {
     "name": "charizard",
-    "pokedexEntry": 7,
+    "pokedexEntry": 6,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
     "types": [
       "fire",
@@ -53,7 +53,7 @@
   },
   {
     "name": "squirtle",
-    "pokedexEntry": 10,
+    "pokedexEntry": 7,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
     "types": [
       "water"
@@ -61,7 +61,7 @@
   },
   {
     "name": "wartortle",
-    "pokedexEntry": 11,
+    "pokedexEntry": 8,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
     "types": [
       "water"
@@ -69,7 +69,7 @@
   },
   {
     "name": "blastoise",
-    "pokedexEntry": 12,
+    "pokedexEntry": 9,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
     "types": [
       "water"
@@ -77,7 +77,7 @@
   },
   {
     "name": "caterpie",
-    "pokedexEntry": 14,
+    "pokedexEntry": 10,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
     "types": [
       "bug"
@@ -85,7 +85,7 @@
   },
   {
     "name": "metapod",
-    "pokedexEntry": 15,
+    "pokedexEntry": 11,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
     "types": [
       "bug"
@@ -93,7 +93,7 @@
   },
   {
     "name": "butterfree",
-    "pokedexEntry": 16,
+    "pokedexEntry": 12,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
     "types": [
       "bug",
@@ -102,7 +102,7 @@
   },
   {
     "name": "weedle",
-    "pokedexEntry": 17,
+    "pokedexEntry": 13,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
     "types": [
       "bug",
@@ -111,7 +111,7 @@
   },
   {
     "name": "kakuna",
-    "pokedexEntry": 18,
+    "pokedexEntry": 14,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
     "types": [
       "bug",
@@ -120,7 +120,7 @@
   },
   {
     "name": "beedrill",
-    "pokedexEntry": 19,
+    "pokedexEntry": 15,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
     "types": [
       "bug",
@@ -129,7 +129,7 @@
   },
   {
     "name": "pidgey",
-    "pokedexEntry": 21,
+    "pokedexEntry": 16,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
     "types": [
       "normal",
@@ -138,7 +138,7 @@
   },
   {
     "name": "pidgeotto",
-    "pokedexEntry": 22,
+    "pokedexEntry": 17,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
     "types": [
       "normal",
@@ -147,7 +147,7 @@
   },
   {
     "name": "pidgeot",
-    "pokedexEntry": 23,
+    "pokedexEntry": 18,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
     "types": [
       "normal",
@@ -156,7 +156,7 @@
   },
   {
     "name": "rattata",
-    "pokedexEntry": 25,
+    "pokedexEntry": 19,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
     "types": [
       "normal"
@@ -164,7 +164,7 @@
   },
   {
     "name": "raticate",
-    "pokedexEntry": 27,
+    "pokedexEntry": 20,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
     "types": [
       "normal"
@@ -172,7 +172,7 @@
   },
   {
     "name": "spearow",
-    "pokedexEntry": 30,
+    "pokedexEntry": 21,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
     "types": [
       "normal",
@@ -181,7 +181,7 @@
   },
   {
     "name": "fearow",
-    "pokedexEntry": 31,
+    "pokedexEntry": 22,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
     "types": [
       "normal",
@@ -190,7 +190,7 @@
   },
   {
     "name": "ekans",
-    "pokedexEntry": 32,
+    "pokedexEntry": 23,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
     "types": [
       "poison"
@@ -198,7 +198,7 @@
   },
   {
     "name": "arbok",
-    "pokedexEntry": 33,
+    "pokedexEntry": 24,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
     "types": [
       "poison"
@@ -206,7 +206,7 @@
   },
   {
     "name": "pikachu",
-    "pokedexEntry": 35,
+    "pokedexEntry": 25,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
     "types": [
       "electric"
@@ -214,7 +214,7 @@
   },
   {
     "name": "raichu",
-    "pokedexEntry": 51,
+    "pokedexEntry": 26,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
     "types": [
       "electric"
@@ -222,7 +222,7 @@
   },
   {
     "name": "sandshrew",
-    "pokedexEntry": 53,
+    "pokedexEntry": 27,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
     "types": [
       "ground"
@@ -230,7 +230,7 @@
   },
   {
     "name": "sandslash",
-    "pokedexEntry": 55,
+    "pokedexEntry": 28,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
     "types": [
       "ground"
@@ -238,7 +238,7 @@
   },
   {
     "name": "nidoran-f",
-    "pokedexEntry": 57,
+    "pokedexEntry": 29,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
     "types": [
       "poison"
@@ -246,7 +246,7 @@
   },
   {
     "name": "nidorina",
-    "pokedexEntry": 58,
+    "pokedexEntry": 30,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
     "types": [
       "poison"
@@ -254,7 +254,7 @@
   },
   {
     "name": "nidoqueen",
-    "pokedexEntry": 59,
+    "pokedexEntry": 31,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
     "types": [
       "poison",
@@ -263,7 +263,7 @@
   },
   {
     "name": "nidoran-m",
-    "pokedexEntry": 60,
+    "pokedexEntry": 32,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
     "types": [
       "poison"
@@ -271,7 +271,7 @@
   },
   {
     "name": "nidorino",
-    "pokedexEntry": 61,
+    "pokedexEntry": 33,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
     "types": [
       "poison"
@@ -279,7 +279,7 @@
   },
   {
     "name": "nidoking",
-    "pokedexEntry": 62,
+    "pokedexEntry": 34,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
     "types": [
       "poison",
@@ -288,7 +288,7 @@
   },
   {
     "name": "clefairy",
-    "pokedexEntry": 64,
+    "pokedexEntry": 35,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
     "types": [
       "fairy"
@@ -296,7 +296,7 @@
   },
   {
     "name": "clefable",
-    "pokedexEntry": 65,
+    "pokedexEntry": 36,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
     "types": [
       "fairy"
@@ -304,7 +304,7 @@
   },
   {
     "name": "vulpix",
-    "pokedexEntry": 66,
+    "pokedexEntry": 37,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
     "types": [
       "fire"
@@ -312,7 +312,7 @@
   },
   {
     "name": "ninetales",
-    "pokedexEntry": 68,
+    "pokedexEntry": 38,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
     "types": [
       "fire"
@@ -320,7 +320,7 @@
   },
   {
     "name": "jigglypuff",
-    "pokedexEntry": 71,
+    "pokedexEntry": 39,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
     "types": [
       "normal",
@@ -329,7 +329,7 @@
   },
   {
     "name": "wigglytuff",
-    "pokedexEntry": 72,
+    "pokedexEntry": 40,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
     "types": [
       "normal",
@@ -338,7 +338,7 @@
   },
   {
     "name": "zubat",
-    "pokedexEntry": 73,
+    "pokedexEntry": 41,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
     "types": [
       "poison",
@@ -347,7 +347,7 @@
   },
   {
     "name": "golbat",
-    "pokedexEntry": 74,
+    "pokedexEntry": 42,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
     "types": [
       "poison",
@@ -356,7 +356,7 @@
   },
   {
     "name": "oddish",
-    "pokedexEntry": 76,
+    "pokedexEntry": 43,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
     "types": [
       "grass",
@@ -365,7 +365,7 @@
   },
   {
     "name": "gloom",
-    "pokedexEntry": 77,
+    "pokedexEntry": 44,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
     "types": [
       "grass",
@@ -374,7 +374,7 @@
   },
   {
     "name": "vileplume",
-    "pokedexEntry": 78,
+    "pokedexEntry": 45,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
     "types": [
       "grass",
@@ -383,7 +383,7 @@
   },
   {
     "name": "paras",
-    "pokedexEntry": 80,
+    "pokedexEntry": 46,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
     "types": [
       "bug",
@@ -392,7 +392,7 @@
   },
   {
     "name": "parasect",
-    "pokedexEntry": 81,
+    "pokedexEntry": 47,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
     "types": [
       "bug",
@@ -401,7 +401,7 @@
   },
   {
     "name": "venonat",
-    "pokedexEntry": 82,
+    "pokedexEntry": 48,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
     "types": [
       "bug",
@@ -410,7 +410,7 @@
   },
   {
     "name": "venomoth",
-    "pokedexEntry": 83,
+    "pokedexEntry": 49,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
     "types": [
       "bug",
@@ -419,7 +419,7 @@
   },
   {
     "name": "diglett",
-    "pokedexEntry": 84,
+    "pokedexEntry": 50,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
     "types": [
       "ground"
@@ -427,7 +427,7 @@
   },
   {
     "name": "dugtrio",
-    "pokedexEntry": 86,
+    "pokedexEntry": 51,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
     "types": [
       "ground"
@@ -435,7 +435,7 @@
   },
   {
     "name": "meowth",
-    "pokedexEntry": 88,
+    "pokedexEntry": 52,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
     "types": [
       "normal"
@@ -443,7 +443,7 @@
   },
   {
     "name": "persian",
-    "pokedexEntry": 91,
+    "pokedexEntry": 53,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
     "types": [
       "normal"
@@ -451,7 +451,7 @@
   },
   {
     "name": "psyduck",
-    "pokedexEntry": 93,
+    "pokedexEntry": 54,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
     "types": [
       "water"
@@ -459,7 +459,7 @@
   },
   {
     "name": "golduck",
-    "pokedexEntry": 94,
+    "pokedexEntry": 55,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
     "types": [
       "water"
@@ -467,7 +467,7 @@
   },
   {
     "name": "mankey",
-    "pokedexEntry": 95,
+    "pokedexEntry": 56,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
     "types": [
       "fighting"
@@ -475,7 +475,7 @@
   },
   {
     "name": "primeape",
-    "pokedexEntry": 96,
+    "pokedexEntry": 57,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
     "types": [
       "fighting"
@@ -483,7 +483,7 @@
   },
   {
     "name": "growlithe",
-    "pokedexEntry": 97,
+    "pokedexEntry": 58,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
     "types": [
       "fire"
@@ -491,7 +491,7 @@
   },
   {
     "name": "arcanine",
-    "pokedexEntry": 98,
+    "pokedexEntry": 59,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
     "types": [
       "fire"
@@ -499,7 +499,7 @@
   },
   {
     "name": "poliwag",
-    "pokedexEntry": 99,
+    "pokedexEntry": 60,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
     "types": [
       "water"
@@ -507,7 +507,7 @@
   },
   {
     "name": "poliwhirl",
-    "pokedexEntry": 100,
+    "pokedexEntry": 61,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
     "types": [
       "water"
@@ -515,7 +515,7 @@
   },
   {
     "name": "poliwrath",
-    "pokedexEntry": 101,
+    "pokedexEntry": 62,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
     "types": [
       "water",
@@ -524,7 +524,7 @@
   },
   {
     "name": "abra",
-    "pokedexEntry": 103,
+    "pokedexEntry": 63,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
     "types": [
       "psychic"
@@ -532,7 +532,7 @@
   },
   {
     "name": "kadabra",
-    "pokedexEntry": 104,
+    "pokedexEntry": 64,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
     "types": [
       "psychic"
@@ -540,7 +540,7 @@
   },
   {
     "name": "alakazam",
-    "pokedexEntry": 105,
+    "pokedexEntry": 65,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
     "types": [
       "psychic"
@@ -548,7 +548,7 @@
   },
   {
     "name": "machop",
-    "pokedexEntry": 107,
+    "pokedexEntry": 66,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
     "types": [
       "fighting"
@@ -556,7 +556,7 @@
   },
   {
     "name": "machoke",
-    "pokedexEntry": 108,
+    "pokedexEntry": 67,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
     "types": [
       "fighting"
@@ -564,7 +564,7 @@
   },
   {
     "name": "machamp",
-    "pokedexEntry": 109,
+    "pokedexEntry": 68,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
     "types": [
       "fighting"
@@ -572,7 +572,7 @@
   },
   {
     "name": "bellsprout",
-    "pokedexEntry": 110,
+    "pokedexEntry": 69,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
     "types": [
       "grass",
@@ -581,7 +581,7 @@
   },
   {
     "name": "weepinbell",
-    "pokedexEntry": 111,
+    "pokedexEntry": 70,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
     "types": [
       "grass",
@@ -590,7 +590,7 @@
   },
   {
     "name": "victreebel",
-    "pokedexEntry": 112,
+    "pokedexEntry": 71,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
     "types": [
       "grass",
@@ -599,7 +599,7 @@
   },
   {
     "name": "tentacool",
-    "pokedexEntry": 113,
+    "pokedexEntry": 72,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
     "types": [
       "water",
@@ -608,7 +608,7 @@
   },
   {
     "name": "tentacruel",
-    "pokedexEntry": 114,
+    "pokedexEntry": 73,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
     "types": [
       "water",
@@ -617,7 +617,7 @@
   },
   {
     "name": "geodude",
-    "pokedexEntry": 115,
+    "pokedexEntry": 74,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
     "types": [
       "rock",
@@ -626,7 +626,7 @@
   },
   {
     "name": "graveler",
-    "pokedexEntry": 117,
+    "pokedexEntry": 75,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
     "types": [
       "rock",
@@ -635,7 +635,7 @@
   },
   {
     "name": "golem",
-    "pokedexEntry": 119,
+    "pokedexEntry": 76,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
     "types": [
       "rock",
@@ -644,7 +644,7 @@
   },
   {
     "name": "ponyta",
-    "pokedexEntry": 121,
+    "pokedexEntry": 77,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
     "types": [
       "fire"
@@ -652,7 +652,7 @@
   },
   {
     "name": "rapidash",
-    "pokedexEntry": 123,
+    "pokedexEntry": 78,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
     "types": [
       "fire"
@@ -660,7 +660,7 @@
   },
   {
     "name": "slowpoke",
-    "pokedexEntry": 125,
+    "pokedexEntry": 79,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
     "types": [
       "water",
@@ -669,7 +669,7 @@
   },
   {
     "name": "slowbro",
-    "pokedexEntry": 127,
+    "pokedexEntry": 80,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
     "types": [
       "water",
@@ -678,7 +678,7 @@
   },
   {
     "name": "magnemite",
-    "pokedexEntry": 132,
+    "pokedexEntry": 81,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
     "types": [
       "electric",
@@ -687,7 +687,7 @@
   },
   {
     "name": "magneton",
-    "pokedexEntry": 133,
+    "pokedexEntry": 82,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
     "types": [
       "electric",
@@ -696,7 +696,7 @@
   },
   {
     "name": "farfetchd",
-    "pokedexEntry": 135,
+    "pokedexEntry": 83,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
     "types": [
       "normal",
@@ -705,7 +705,7 @@
   },
   {
     "name": "doduo",
-    "pokedexEntry": 137,
+    "pokedexEntry": 84,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
     "types": [
       "normal",
@@ -714,7 +714,7 @@
   },
   {
     "name": "dodrio",
-    "pokedexEntry": 138,
+    "pokedexEntry": 85,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
     "types": [
       "normal",
@@ -723,7 +723,7 @@
   },
   {
     "name": "seel",
-    "pokedexEntry": 139,
+    "pokedexEntry": 86,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
     "types": [
       "water"
@@ -731,7 +731,7 @@
   },
   {
     "name": "dewgong",
-    "pokedexEntry": 140,
+    "pokedexEntry": 87,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
     "types": [
       "water",
@@ -740,7 +740,7 @@
   },
   {
     "name": "grimer",
-    "pokedexEntry": 141,
+    "pokedexEntry": 88,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
     "types": [
       "poison"
@@ -748,7 +748,7 @@
   },
   {
     "name": "muk",
-    "pokedexEntry": 143,
+    "pokedexEntry": 89,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
     "types": [
       "poison"
@@ -756,7 +756,7 @@
   },
   {
     "name": "shellder",
-    "pokedexEntry": 145,
+    "pokedexEntry": 90,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
     "types": [
       "water"
@@ -764,7 +764,7 @@
   },
   {
     "name": "cloyster",
-    "pokedexEntry": 146,
+    "pokedexEntry": 91,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
     "types": [
       "water",
@@ -773,7 +773,7 @@
   },
   {
     "name": "gastly",
-    "pokedexEntry": 147,
+    "pokedexEntry": 92,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
     "types": [
       "ghost",
@@ -782,7 +782,7 @@
   },
   {
     "name": "haunter",
-    "pokedexEntry": 148,
+    "pokedexEntry": 93,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
     "types": [
       "ghost",
@@ -791,7 +791,7 @@
   },
   {
     "name": "gengar",
-    "pokedexEntry": 149,
+    "pokedexEntry": 94,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
     "types": [
       "ghost",
@@ -800,7 +800,7 @@
   },
   {
     "name": "onix",
-    "pokedexEntry": 151,
+    "pokedexEntry": 95,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
     "types": [
       "rock",
@@ -809,7 +809,7 @@
   },
   {
     "name": "drowzee",
-    "pokedexEntry": 154,
+    "pokedexEntry": 96,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
     "types": [
       "psychic"
@@ -817,7 +817,7 @@
   },
   {
     "name": "hypno",
-    "pokedexEntry": 155,
+    "pokedexEntry": 97,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
     "types": [
       "psychic"
@@ -825,7 +825,7 @@
   },
   {
     "name": "krabby",
-    "pokedexEntry": 156,
+    "pokedexEntry": 98,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
     "types": [
       "water"
@@ -833,7 +833,7 @@
   },
   {
     "name": "kingler",
-    "pokedexEntry": 157,
+    "pokedexEntry": 99,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
     "types": [
       "water"
@@ -841,7 +841,7 @@
   },
   {
     "name": "voltorb",
-    "pokedexEntry": 158,
+    "pokedexEntry": 100,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
     "types": [
       "electric"
@@ -849,7 +849,7 @@
   },
   {
     "name": "electrode",
-    "pokedexEntry": 159,
+    "pokedexEntry": 101,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
     "types": [
       "electric"
@@ -857,7 +857,7 @@
   },
   {
     "name": "exeggcute",
-    "pokedexEntry": 160,
+    "pokedexEntry": 102,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
     "types": [
       "grass",
@@ -866,7 +866,7 @@
   },
   {
     "name": "exeggutor",
-    "pokedexEntry": 161,
+    "pokedexEntry": 103,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
     "types": [
       "grass",
@@ -875,7 +875,7 @@
   },
   {
     "name": "cubone",
-    "pokedexEntry": 163,
+    "pokedexEntry": 104,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
     "types": [
       "ground"
@@ -883,7 +883,7 @@
   },
   {
     "name": "marowak",
-    "pokedexEntry": 164,
+    "pokedexEntry": 105,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
     "types": [
       "ground"
@@ -891,7 +891,7 @@
   },
   {
     "name": "hitmonlee",
-    "pokedexEntry": 168,
+    "pokedexEntry": 106,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
     "types": [
       "fighting"
@@ -899,7 +899,7 @@
   },
   {
     "name": "hitmonchan",
-    "pokedexEntry": 169,
+    "pokedexEntry": 107,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
     "types": [
       "fighting"
@@ -907,7 +907,7 @@
   },
   {
     "name": "lickitung",
-    "pokedexEntry": 171,
+    "pokedexEntry": 108,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
     "types": [
       "normal"
@@ -915,7 +915,7 @@
   },
   {
     "name": "koffing",
-    "pokedexEntry": 173,
+    "pokedexEntry": 109,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
     "types": [
       "poison"
@@ -923,7 +923,7 @@
   },
   {
     "name": "weezing",
-    "pokedexEntry": 174,
+    "pokedexEntry": 110,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
     "types": [
       "poison"
@@ -931,7 +931,7 @@
   },
   {
     "name": "rhyhorn",
-    "pokedexEntry": 176,
+    "pokedexEntry": 111,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
     "types": [
       "ground",
@@ -940,7 +940,7 @@
   },
   {
     "name": "rhydon",
-    "pokedexEntry": 177,
+    "pokedexEntry": 112,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
     "types": [
       "ground",
@@ -949,7 +949,7 @@
   },
   {
     "name": "chansey",
-    "pokedexEntry": 180,
+    "pokedexEntry": 113,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
     "types": [
       "normal"
@@ -957,7 +957,7 @@
   },
   {
     "name": "tangela",
-    "pokedexEntry": 182,
+    "pokedexEntry": 114,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
     "types": [
       "grass"
@@ -965,7 +965,7 @@
   },
   {
     "name": "kangaskhan",
-    "pokedexEntry": 184,
+    "pokedexEntry": 115,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
     "types": [
       "normal"
@@ -973,7 +973,7 @@
   },
   {
     "name": "horsea",
-    "pokedexEntry": 186,
+    "pokedexEntry": 116,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
     "types": [
       "water"
@@ -981,7 +981,7 @@
   },
   {
     "name": "seadra",
-    "pokedexEntry": 187,
+    "pokedexEntry": 117,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
     "types": [
       "water"
@@ -989,7 +989,7 @@
   },
   {
     "name": "goldeen",
-    "pokedexEntry": 189,
+    "pokedexEntry": 118,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
     "types": [
       "water"
@@ -997,7 +997,7 @@
   },
   {
     "name": "seaking",
-    "pokedexEntry": 190,
+    "pokedexEntry": 119,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
     "types": [
       "water"
@@ -1005,7 +1005,7 @@
   },
   {
     "name": "staryu",
-    "pokedexEntry": 191,
+    "pokedexEntry": 120,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
     "types": [
       "water"
@@ -1013,7 +1013,7 @@
   },
   {
     "name": "starmie",
-    "pokedexEntry": 192,
+    "pokedexEntry": 121,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
     "types": [
       "water",
@@ -1022,7 +1022,7 @@
   },
   {
     "name": "mr-mime",
-    "pokedexEntry": 194,
+    "pokedexEntry": 122,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
     "types": [
       "psychic",
@@ -1031,7 +1031,7 @@
   },
   {
     "name": "scyther",
-    "pokedexEntry": 196,
+    "pokedexEntry": 123,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
     "types": [
       "bug",
@@ -1040,7 +1040,7 @@
   },
   {
     "name": "jynx",
-    "pokedexEntry": 200,
+    "pokedexEntry": 124,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
     "types": [
       "ice",
@@ -1049,7 +1049,7 @@
   },
   {
     "name": "electabuzz",
-    "pokedexEntry": 202,
+    "pokedexEntry": 125,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
     "types": [
       "electric"
@@ -1057,7 +1057,7 @@
   },
   {
     "name": "magmar",
-    "pokedexEntry": 205,
+    "pokedexEntry": 126,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
     "types": [
       "fire"
@@ -1065,7 +1065,7 @@
   },
   {
     "name": "pinsir",
-    "pokedexEntry": 207,
+    "pokedexEntry": 127,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
     "types": [
       "bug"
@@ -1073,7 +1073,7 @@
   },
   {
     "name": "tauros",
-    "pokedexEntry": 209,
+    "pokedexEntry": 128,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
     "types": [
       "normal"
@@ -1081,7 +1081,7 @@
   },
   {
     "name": "magikarp",
-    "pokedexEntry": 210,
+    "pokedexEntry": 129,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
     "types": [
       "water"
@@ -1089,7 +1089,7 @@
   },
   {
     "name": "gyarados",
-    "pokedexEntry": 211,
+    "pokedexEntry": 130,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
     "types": [
       "water",
@@ -1098,7 +1098,7 @@
   },
   {
     "name": "lapras",
-    "pokedexEntry": 213,
+    "pokedexEntry": 131,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
     "types": [
       "water",
@@ -1107,7 +1107,7 @@
   },
   {
     "name": "ditto",
-    "pokedexEntry": 214,
+    "pokedexEntry": 132,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
     "types": [
       "normal"
@@ -1115,7 +1115,7 @@
   },
   {
     "name": "eevee",
-    "pokedexEntry": 215,
+    "pokedexEntry": 133,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
     "types": [
       "normal"
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "vaporeon",
-    "pokedexEntry": 217,
+    "pokedexEntry": 134,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
     "types": [
       "water"
@@ -1131,7 +1131,7 @@
   },
   {
     "name": "jolteon",
-    "pokedexEntry": 218,
+    "pokedexEntry": 135,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
     "types": [
       "electric"
@@ -1139,7 +1139,7 @@
   },
   {
     "name": "flareon",
-    "pokedexEntry": 219,
+    "pokedexEntry": 136,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
     "types": [
       "fire"
@@ -1147,7 +1147,7 @@
   },
   {
     "name": "porygon",
-    "pokedexEntry": 225,
+    "pokedexEntry": 137,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
     "types": [
       "normal"
@@ -1155,7 +1155,7 @@
   },
   {
     "name": "omanyte",
-    "pokedexEntry": 228,
+    "pokedexEntry": 138,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
     "types": [
       "rock",
@@ -1164,7 +1164,7 @@
   },
   {
     "name": "omastar",
-    "pokedexEntry": 229,
+    "pokedexEntry": 139,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
     "types": [
       "rock",
@@ -1173,7 +1173,7 @@
   },
   {
     "name": "kabuto",
-    "pokedexEntry": 230,
+    "pokedexEntry": 140,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
     "types": [
       "rock",
@@ -1182,7 +1182,7 @@
   },
   {
     "name": "kabutops",
-    "pokedexEntry": 231,
+    "pokedexEntry": 141,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
     "types": [
       "rock",
@@ -1191,7 +1191,7 @@
   },
   {
     "name": "aerodactyl",
-    "pokedexEntry": 232,
+    "pokedexEntry": 142,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
     "types": [
       "rock",
@@ -1200,7 +1200,7 @@
   },
   {
     "name": "snorlax",
-    "pokedexEntry": 235,
+    "pokedexEntry": 143,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
     "types": [
       "normal"
@@ -1208,7 +1208,7 @@
   },
   {
     "name": "articuno",
-    "pokedexEntry": 236,
+    "pokedexEntry": 144,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
     "types": [
       "ice",
@@ -1217,7 +1217,7 @@
   },
   {
     "name": "zapdos",
-    "pokedexEntry": 238,
+    "pokedexEntry": 145,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
     "types": [
       "electric",
@@ -1226,7 +1226,7 @@
   },
   {
     "name": "moltres",
-    "pokedexEntry": 240,
+    "pokedexEntry": 146,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
     "types": [
       "fire",
@@ -1235,7 +1235,7 @@
   },
   {
     "name": "dratini",
-    "pokedexEntry": 242,
+    "pokedexEntry": 147,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
     "types": [
       "dragon"
@@ -1243,7 +1243,7 @@
   },
   {
     "name": "dragonair",
-    "pokedexEntry": 243,
+    "pokedexEntry": 148,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
     "types": [
       "dragon"
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "dragonite",
-    "pokedexEntry": 244,
+    "pokedexEntry": 149,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
     "types": [
       "dragon",
@@ -1260,7 +1260,7 @@
   },
   {
     "name": "mewtwo",
-    "pokedexEntry": 245,
+    "pokedexEntry": 150,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
     "types": [
       "psychic"
@@ -1268,7 +1268,7 @@
   },
   {
     "name": "mew",
-    "pokedexEntry": 248,
+    "pokedexEntry": 151,
     "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
     "types": [
       "psychic"

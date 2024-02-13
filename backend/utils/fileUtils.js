@@ -47,7 +47,7 @@ const formatPokemonData = (pokemonData) => {
   const formattedData = pokemonData.map((pokemon) => {
     return {
       name: pokemon.name,
-      pokedexEntry: pokemon.order,
+      pokedexEntry: pokemon.id,
       sprites: pokemon.sprites.other["official-artwork"].front_default,
       types: pokemon.types.map((type) => type.type.name)
     }
