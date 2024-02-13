@@ -4,6 +4,29 @@ const logger = require("../utils/logger")
 const fileUtils = require("../utils/fileUtils")
 const pokeapiService = require("../services/pokeapi")
 
+// Get pokemon
+router.get("/pokemon/:idOrName", (req, res) => {
+  try {
+    const { idOrName } = req.params
+    const data = fileUtils.readLocalData("../data/pokemon.json")
+
+    // Find pokemon by id or name
+    const pokemon = data.find(
+      (p) => p.name.toLowerCase() === idOrName.toLowerCase()
+      || p.pokedexEntry === parseInt(idOrName)
+    )
+
+    if (pokemon) {
+      res.json({ sucecss: true, data: pokemon})
+    } else {
+      res.status(404).json({ success: false, message: "Pokémon not found."})
+    }
+  } catch (error) {
+    logger.error("Something went wrong when trying to read local file", error)
+    res.status(500).json({ success: false, message: "Failed to read local file." })
+  }
+})
+
 router.get("/fetch-pokemon-urls", (req, res) => {
   pokeapiService.fetchPokemonData()
     .then(pokemonData => {
