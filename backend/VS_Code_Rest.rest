@@ -3,3 +3,6 @@ GET http://localhost:3003/api/fetch-pokemon-urls
 
 ### Fetch pokemon details
 GET http://localhost:3003/api/fetch-pokemon-details
+
+### Format the data
+GET http://localhost:3003/api/format-data

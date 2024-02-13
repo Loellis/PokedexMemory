@@ -1,10 +1,12 @@
 const fs = require("fs")
 const logger = require("./logger")
+const path = require("path")
 
 const writeDataLocally = (data, fileName) => {
   try {
+    const filePath = path.resolve(__dirname, fileName)
     const jsonData = JSON.stringify(data, null, 2)
-    fs.writeFileSync(fileName, jsonData)
+    fs.writeFileSync(filePath, jsonData)
     logger.info(`Data was successfully written to: ${fileName}`)
   } catch (error) {
     logger.error(`Error writing data to file: ${fileName}`, error.message)
@@ -14,15 +16,16 @@ const writeDataLocally = (data, fileName) => {
 const appendDataLocally = (data, fileName) => {
   try {
     let existingDataJson = []
+    const filePath = path.resolve(__dirname, fileName)
 
     // Check if file exists
-    if (fs.existsSync(fileName)) {
-      const existingData = fs.readFileSync(fileName, "utf-8")
+    if (fs.existsSync(filePath)) {
+      const existingData = fs.readFileSync(filePath, "utf-8")
       existingDataJson = JSON.parse(existingData)
     }
     
     existingDataJson.push(data)
-    fs.writeFileSync(fileName, JSON.stringify(existingDataJson, null, 2))
+    fs.writeFileSync(filePath, JSON.stringify(existingDataJson, null, 2))
     logger.info(`Successfully appended data to: ${fileName}`)
   } catch (error) {
     logger.error(`Error appending data to file: ${fileName}`, error.message)
@@ -31,7 +34,8 @@ const appendDataLocally = (data, fileName) => {
 
 const readLocalData = (fileName) => {
   try {
-    const data = fs.readFileSync(fileName, "utf-8")
+    const filePath = path.resolve(__dirname, fileName)
+    const data = fs.readFileSync(filePath, "utf-8")
     return JSON.parse(data)
   } catch (error) {
     logger.error(`Error reading data from file: ${fileName}`, error.message)
@@ -39,4 +43,17 @@ const readLocalData = (fileName) => {
 
 }
 
-module.exports = { writeDataLocally, appendDataLocally, readLocalData }
+const formatPokemonData = (pokemonData) => {
+  const formattedData = pokemonData.map((pokemon) => {
+    return {
+      name: pokemon.name,
+      pokedexEntry: pokemon.order,
+      sprites: pokemon.sprites.other["official-artwork"].front_default,
+      types: pokemon.types.map((type) => type.type.name)
+    }
+  })
+
+  return formattedData
+}
+
+module.exports = { writeDataLocally, appendDataLocally, readLocalData, formatPokemonData }

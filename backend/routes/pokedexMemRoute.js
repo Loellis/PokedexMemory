@@ -40,4 +40,15 @@ router.get("/fetch-pokemon-details", async (req, res) => {
   }
 })
 
+router.get("/format-data", (req, res) => {
+  try {
+    const pokemonData = fileUtils.readLocalData("../data/pokemon-details.json")
+    const formattedData = fileUtils.formatPokemonData(pokemonData)
+    fileUtils.writeDataLocally(formattedData, "../data/pokemon.json")
+  } catch (error) {
+    logger.error("Something went wrong when trying to read local file", error)
+    res.status(500).json({ success: false, message: "Failed to read local file." })
+  }
+})
+
 module.exports = router
