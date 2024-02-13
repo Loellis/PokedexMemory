@@ -1,23 +1,11 @@
-import React, { useState } from "react";
-import GameView from "./GameView";
+import React from 'react'
 
-const WelcomePage = () => {
-  const [gameStarted, setGameStarted] = useState(false);
-
-  const startGame = () => {
-    setGameStarted(true);
-  };
-
+const WelcomePage = ({ onStartGame }) => {
   return (
     <div>
-      <h1>Who's that Pokémon?!</h1>
-      {!gameStarted ? (
-        <button onClick={startGame}>Start Game</button>
-      ) : (
-        <GameView />
-      )}
+      <button onClick={onStartGame}>Start Game</button>
     </div>
-  );
-};
+  )
+}
 
-export default WelcomePage;
+export default WelcomePage
