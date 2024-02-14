@@ -1,18 +1,11 @@
 import React, { useEffect, useState, useRef } from "react"
 import WelcomePage from "./components/WelcomePage"
 import GameView from "./components/GameView"
+import FeedbackModal from "./components/FeedbackModal"
+import EndOfGame from "./components/EndOfGame"
 import { fetchPokemonById } from "./services/pokemonService"
+import { generateScrambledArrayOfPokemonIds } from "./utils/utils"
 
-const generateScrambledArrayOfPokemonIds = () => {
-  const pokedexEntries = Array.from({length: 151}, (_, index) => index +1)
-  for (let i = pokedexEntries.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    const temp = pokedexEntries[i]
-    pokedexEntries[i] = pokedexEntries[j]
-    pokedexEntries[j] = temp
-  }
-  return pokedexEntries
-}
 
 const App = () => {
   const [gameStarted, setGameStarted] = useState(false)
@@ -20,6 +13,9 @@ const App = () => {
   const [pokemonIndexes, setPokemonIndexes] = useState([])
   const [score, setScore] = useState(0)
   const [elapsedTime, setElapsedTime] = useState(0)
+  const [isOpen, setIsOpen] = useState(false)
+  const [feedback, setFeedback] = useState("")
+  const [endOfGame, setEndOfGame] = useState(false)
   const timeRef = useRef(null)
 
   useEffect(() => {
@@ -63,25 +59,60 @@ const App = () => {
     }
   }
 
+  const handleEndOfGame = () => {
+    setEndOfGame(true)
+    setGameStarted(false)
+  }
+
   const handlePlayAgain = async () => {
     const newIndexes = generateScrambledArrayOfPokemonIds()
     setPokemonIndexes(newIndexes)
     setGameStarted(false)
   }
 
+  const handleFeedback = (feedback) => {
+    setFeedback(feedback)
+    setIsOpen(true)
+  }
+
   return (
     <div>
       <h1>Who's that Pokémon?!</h1>
-      {!gameStarted ? (
-        <WelcomePage onStartGame={handleStartGame} />
-      ) : (
+      { !gameStarted && !endOfGame && <WelcomePage onStartGame={handleStartGame} /> }
+      { endOfGame && <EndOfGame score={score} timeUsed={elapsedTime} /> }
+      { gameStarted && 
         <GameView pokemonData={pokemonData} 
-                  onContinue={handleContinue} 
-                  onPlayAgain={handlePlayAgain}
-                  morePokemon={pokemonIndexes.length}
-                  updateScore={handleScore}
-                  score={score}
-                  timer={elapsedTime} />
+          morePokemon={pokemonIndexes.length}
+          updateScore={handleScore}
+          score={score}
+          timer={elapsedTime}
+          updateFeedback={handleFeedback}
+          endTheGame={handleEndOfGame} 
+        />
+      }
+      {isOpen && (
+        <FeedbackModal
+          open={isOpen}
+          feedback={feedback}
+          onClose={() => {
+            if (pokemonIndexes.length !== 0) {
+              handleContinue()
+              setIsOpen(false)
+            } else {
+              handleEndOfGame()
+              setIsOpen(false)
+            }
+          }}
+          onContinue={() => {
+            if (pokemonIndexes.length !== 0) {
+              handleContinue()
+              setIsOpen(false)
+            } else {
+              handleEndOfGame()
+              setIsOpen(false)
+            }
+          }}
+        />
       )}
     </div>
   )
