@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from "react"
 
-const GameView = ({ pokemonData , onContinue, onPlayAgain, morePokemon }) => {
+const GameView = ({ 
+    pokemonData, 
+    onContinue, 
+    onPlayAgain, 
+    morePokemon, 
+    updateScore,
+    score,
+    timer }) => {
   const [guessName, setGuessName] = useState("")
-  const [feedbackName, setFeedbackName] = useState("")
   const [guessId, setGuessId] = useState("")
-  const [feedbackId, setFeedbackId] = useState("")
-
   const [notDone, setNotDone] = useState(true)
+  const [feedback, setFeedback] = useState("")
+  const [submitted, setSubmitted] = useState(false)
+
 
   const calculateLevenshteinDistance = (s1, s2) => {
     const len1 = s1.length;
@@ -46,45 +53,49 @@ const GameView = ({ pokemonData , onContinue, onPlayAgain, morePokemon }) => {
   const handleNextPokemon = async () => {
     onContinue()
     setGuessName("")
-    setFeedbackName("")
     setGuessId("")
-    setFeedbackId("")
+    setFeedback("")
+    setSubmitted(false)
   }
 
   const handlePlayAgain = () => {
     onPlayAgain()
     setGuessName("")
-    setFeedbackName("")
     setGuessId("")
-    setFeedbackId("")
+    setFeedback("")
+    setSubmitted(false)
   }
 
   useEffect(() => {
     setNotDone(morePokemon !== 0)
   }, [morePokemon])
 
-  const handleGuessName = () => {
-    if (guessName.toLowerCase() === pokemonData.name) {
-      setFeedbackName("Correct!")
-    } else if (isGuessCloseEnough(guessName, pokemonData.name)) {
-      setFeedbackName(`Close enough! You misspelled ${pokemonData.name.charAt(0).toUpperCase() + pokemonData.name.slice(1)}`)
-    } else {
-      setFeedbackName("Incorrect. Try again.")
-      setGuessName("")
-    }
-  }
 
-  const handleGuessId = () => {
-    if (parseInt(guessId) === pokemonData.pokedexEntry) {
-      setFeedbackId("Correct!")
-    } else if (Math.abs(parseInt(guessId) - pokemonData.pokedexEntry) < 5){
-      setFeedbackId("Almost there!")
-    } else if (Math.abs(parseInt(guessId) - pokemonData.pokedexEntry) < 20){
-      setFeedbackId("You are a little off.")
+  const handleCheckAnswer = (name, index) => {
+    if (name.toLowerCase() === pokemonData.name.toLowerCase() && parseInt(index) === pokemonData.pokedexEntry) {
+      updateScore(2)
+      setFeedback("You guessed both Pokédex entry and the name correctly!")
+    } else if (name.toLowerCase() === pokemonData.name.toLowerCase() && parseInt(index) !== pokemonData.pokedexEntry) {
+      updateScore(1)
+      setFeedback(`You guessed the name correctly, but the Pokédex entry was wrong. Your guess: ${index}. Correct Answer: ${pokemonData.pokedexEntry}`)
+    } else if (name.toLowerCase() !== pokemonData.name.toLowerCase() && parseInt(index) === pokemonData.pokedexEntry) {
+      if (isGuessCloseEnough(name, pokemonData.name)) {
+        updateScore(2)
+        setFeedback(`Your name guess was close enough! You misspelled ${pokemonData.name.charAt(0).toUpperCase() + pokemonData.name.slice(1)}. The Pokédex entry was correctly guessed.`)
+      } else {
+        updateScore(1)
+        setFeedback(`You guessed the wrong name, but the Pokédex entry was correct. Your guess: ${name}. Correct answer: ${pokemonData.name.charAt(0).toUpperCase() + pokemonData.name.slice(1)}`)
+      }
     } else {
-      setFeedbackId("Incorrect. You are far off.")
-      setGuessId("")
+      if (isGuessCloseEnough(name, pokemonData.name)) {
+        setFeedback(`Your name guess was close enough! You misspelled ${pokemonData.name.charAt(0).toUpperCase() + pokemonData.name.slice(1)}. The Pokédex entry was incorrect. Your Pokédex guess: ${index}. Correct answer: ${pokemonData.pokedexEntry}`)
+        updateScore(1)
+      } else {
+        setFeedback("Both your guesses were wrong.")
+      }
     }
+
+    setSubmitted(true)
   }
 
   return (
@@ -93,22 +104,32 @@ const GameView = ({ pokemonData , onContinue, onPlayAgain, morePokemon }) => {
         <div>
           <img src={pokemonData.sprites} alt="Image of a pokemon" />
           <br />
+          {score > 0 && (
+            <p>SCORE: {score}</p>
+          )}
           <input
             type="text"
             placeholder="Enter Pokémon Name"
             value={guessName}
+            required
             onChange={(e) => setGuessName(e.target.value)}
           />
-          <button onClick={handleGuessName}>Submit Name</button>
-          <p>{feedbackName}</p>
           <input
             type="number"
             placeholder="Enter Pokedex Entry"
             value={guessId}
+            required
             onChange={(e) => setGuessId(e.target.value)}
           />
-          <button onClick={handleGuessId}>Submit Pokédex entry</button>
-          <p>{feedbackId}</p>
+          <button 
+            onClick={() => handleCheckAnswer(guessName, guessId)}
+            disabled={!guessName || !guessId || submitted}
+          >
+            Submit Answer
+          </button>
+          <p>{feedback}</p>
+          <p>Number of Pokémon left: {morePokemon}</p>
+          <p>Seconds played: {timer}</p>
           { notDone ? (
             <button onClick={handleNextPokemon}>Next Pokémon</button>
           ) : (

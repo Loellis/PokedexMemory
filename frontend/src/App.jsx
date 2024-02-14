@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useRef } from "react"
 import WelcomePage from "./components/WelcomePage"
 import GameView from "./components/GameView"
 import { fetchPokemonById } from "./services/pokemonService"
@@ -18,11 +18,25 @@ const App = () => {
   const [gameStarted, setGameStarted] = useState(false)
   const [pokemonData, setPokemonData] = useState(null)
   const [pokemonIndexes, setPokemonIndexes] = useState([])
+  const [score, setScore] = useState(0)
+  const [elapsedTime, setElapsedTime] = useState(0)
+  const timeRef = useRef(null)
+
+  useEffect(() => {
+    if (gameStarted) {
+      timeRef.current = setInterval(() => {
+        setElapsedTime((prevTime) => prevTime + 1)
+      }, 1000)
+    } else {
+      clearInterval(timeRef.current)
+    }
+
+    return () => clearInterval(timeRef.current)
+  }, [gameStarted])
 
   useEffect(() => {
     setPokemonIndexes(generateScrambledArrayOfPokemonIds())
   }, [gameStarted])
-
 
   const handleStartGame = async () => {
     try {
@@ -33,6 +47,10 @@ const App = () => {
     } catch (error) {
       console.error("Error starting game:", error)
     }
+  }
+
+  const handleScore = (points) => {
+    setScore(score + points)
   }
 
   const handleContinue = async () => {
@@ -60,7 +78,10 @@ const App = () => {
         <GameView pokemonData={pokemonData} 
                   onContinue={handleContinue} 
                   onPlayAgain={handlePlayAgain}
-                  morePokemon={pokemonIndexes.length} />
+                  morePokemon={pokemonIndexes.length}
+                  updateScore={handleScore}
+                  score={score}
+                  timer={elapsedTime} />
       )}
     </div>
   )
