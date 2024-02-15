@@ -17,7 +17,7 @@ const FeedbackModal = ({ open, feedback, onClose, onContinue }) => {
     <Dialog open={open} onClose={onClose}>
       <DialogContent>{feedback}</DialogContent>
       <DialogActions>
-        <Button onClick={onContinue}>Continue</Button>
+        <Button variant="contained" onClick={onContinue}>Continue</Button>
       </DialogActions>
     </Dialog>
   );

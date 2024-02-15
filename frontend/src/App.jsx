@@ -6,6 +6,8 @@ import EndOfGame from "./components/EndOfGame"
 import { fetchPokemonById } from "./services/pokemonService"
 import { generateScrambledArrayOfPokemonIds } from "./utils/utils"
 import Header from "./components/Header"
+import { Grid } from "@mui/material"
+import "./App.css"
 
 
 
@@ -72,20 +74,36 @@ const App = () => {
   }
 
   return (
-    <div>
-      <Header />
+    <Grid
+      container
+      spacing={1}
+      direction="column"
+      justifyContent="center"
+      alignItems="center"
+      style={{ minHeight: "90vh"}}
+      mt={2}
+    >
+      <Grid item>
+        <Header />
+      </Grid>
+      <Grid item>
       { !gameStarted && !endOfGame && <WelcomePage onStartGame={handleStartGame} /> }
-      { endOfGame && <EndOfGame score={score} timeUsed={elapsedTime} /> }
-      { gameStarted && 
-        <GameView pokemonData={pokemonData} 
-          morePokemon={pokemonIndexes.length}
-          updateScore={handleScore}
-          score={score}
-          timer={elapsedTime}
-          updateFeedback={handleFeedback}
-          endTheGame={handleEndOfGame} 
-        />
-      }
+      </Grid>
+      <Grid item>
+        { endOfGame && <EndOfGame score={score} timeUsed={elapsedTime} /> }
+      </Grid>
+      <Grid item>
+        { gameStarted && 
+          <GameView pokemonData={pokemonData} 
+            morePokemon={pokemonIndexes.length}
+            updateScore={handleScore}
+            score={score}
+            timer={elapsedTime}
+            updateFeedback={handleFeedback}
+            endTheGame={handleEndOfGame} 
+          />
+        }
+      </Grid>
       {isOpen && (
         <FeedbackModal
           open={isOpen}
@@ -110,7 +128,7 @@ const App = () => {
           }}
         />
       )}
-    </div>
+    </Grid>
   )
 }
 

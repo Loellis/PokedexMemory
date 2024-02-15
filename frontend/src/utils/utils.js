@@ -26,7 +26,7 @@ const isGuessCloseEnough = (guess, correctAnswer) => {
 }
 
 const generateScrambledArrayOfPokemonIds = () => {
-  const pokedexEntries = Array.from({length: 3}, (_, index) => index +1)
+  const pokedexEntries = Array.from({length: 151}, (_, index) => index +1)
   for (let i = pokedexEntries.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
     const temp = pokedexEntries[i]
