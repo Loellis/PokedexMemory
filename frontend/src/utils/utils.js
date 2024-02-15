@@ -36,4 +36,10 @@ const generateScrambledArrayOfPokemonIds = () => {
   return pokedexEntries
 }
 
-export { isGuessCloseEnough, generateScrambledArrayOfPokemonIds }
+const formatTimeString = (seconds) => {
+  const min = Math.floor(seconds / 60)
+  const sec = seconds % 60
+  return (min)? `${min} min and ${sec} seconds` : `${sec} seconds`
+}
+
+export { isGuessCloseEnough, generateScrambledArrayOfPokemonIds, formatTimeString }

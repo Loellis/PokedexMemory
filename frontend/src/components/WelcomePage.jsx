@@ -1,9 +1,10 @@
 import React from "react"
+import Button from "@mui/material/Button"
 
 const WelcomePage = ({ onStartGame }) => {
   return (
     <div>
-      <button onClick={onStartGame}>Start Game</button>
+      <Button variant="contained" onClick={onStartGame}>Start Game</Button>
     </div>
   )
 }

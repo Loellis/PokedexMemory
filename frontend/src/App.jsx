@@ -5,6 +5,8 @@ import FeedbackModal from "./components/FeedbackModal"
 import EndOfGame from "./components/EndOfGame"
 import { fetchPokemonById } from "./services/pokemonService"
 import { generateScrambledArrayOfPokemonIds } from "./utils/utils"
+import Header from "./components/Header"
+
 
 
 const App = () => {
@@ -64,12 +66,6 @@ const App = () => {
     setGameStarted(false)
   }
 
-  const handlePlayAgain = async () => {
-    const newIndexes = generateScrambledArrayOfPokemonIds()
-    setPokemonIndexes(newIndexes)
-    setGameStarted(false)
-  }
-
   const handleFeedback = (feedback) => {
     setFeedback(feedback)
     setIsOpen(true)
@@ -77,7 +73,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Who's that Pokémon?!</h1>
+      <Header />
       { !gameStarted && !endOfGame && <WelcomePage onStartGame={handleStartGame} /> }
       { endOfGame && <EndOfGame score={score} timeUsed={elapsedTime} /> }
       { gameStarted && 
